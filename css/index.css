@@ -74,6 +74,14 @@ p {
 
 .header {
     border: 3px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
 }
 
 .top-content {
