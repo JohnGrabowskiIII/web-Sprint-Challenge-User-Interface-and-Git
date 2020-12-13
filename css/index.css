@@ -69,14 +69,17 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-    border: 1px solid yellow;
+    /* delete after finishing */
+    /* border: 1px solid yellow; */
 }
 
 .header {
-    border: 3px solid red;
+    /* delete after finishing */
+    /* border: 3px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin: 2% auto;
 }
 
 .header a {
@@ -84,14 +87,19 @@ p {
     color: black;
 }
 
+.bannerimg {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    /* border-bottom: 1px dashed black; */
-    /* comment back in after finishing */
-    border: 1px solid green;
+    border-bottom: 1px dashed black;
+    /* delete after finishing */
+    /* border: 1px solid green; */
 }
 
 .top-content .text-container {
@@ -102,9 +110,9 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
-    /* border-bottom: 1px dashed black; */
-    /* comment back in after finishing */
-    border: 1px solid blue;
+    border-bottom: 1px dashed black;
+    /* delete after finishing */
+    /* border: 1px solid blue; */
 }
 
 .middle-content h2 {
@@ -176,7 +184,8 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
-    border: 1px solid purple;
+    /* delete after finishing */
+    /* border: 1px solid purple; */
 }
 
 .bottom-content .text-container:last-child {
