@@ -178,27 +178,45 @@ p {
 
 .flexcontent {
     /* delete after finishing */
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     border-top: dashed black;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin: 3% auto;
+    padding: 4%;
 }
 
 .centercontent {
     /* delete after finishing */
     /* border: 1px solid blue; */
-    width: 50%;
-    /* border-bottom: dashed black; */
-    /* margin: 1%; */
+    width: 45%;
+    padding: 1%;
+    position: relative;
+    right: 4%;
 }
 
 .flextextfit {
-    width: inherit;
     /* delete after finishing */
     /* border: 1px solid red; */
     border-bottom: dashed black;
-    width: 90%;
+    width: auto;
+    margin-bottom: 2%;
+    padding: 2%;
+    padding-bottom: 7%;
+}
+
+.flextextfit p {
+    margin-bottom: 8%;
+}
+
+.flextextfit>a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3% 10%;
+    margin-bottom: 3%;
 }
 
 .bottom-content {
