@@ -177,14 +177,28 @@ p {
 }
 
 .flexcontent {
+    /* delete after finishing */
     border: 1px solid yellow;
+    border-top: dashed black;
     display: flex;
     flex-wrap: wrap;
+    margin: 3% auto;
 }
 
 .centercontent {
-    border: 1px solid blue;
+    /* delete after finishing */
+    /* border: 1px solid blue; */
     width: 50%;
+    /* border-bottom: dashed black; */
+    /* margin: 1%; */
+}
+
+.flextextfit {
+    width: inherit;
+    /* delete after finishing */
+    /* border: 1px solid red; */
+    border-bottom: dashed black;
+    width: 90%;
 }
 
 .bottom-content {
